@@ -12,3 +12,7 @@ The `.md` markdown files are named to match `*.short_name` in the schema.
 ## Database Schema
 The current database schema is defined by files over in [imars_puppet.../modules/role/files/sql](https://github.com/USF-IMARS/imars_puppet/tree/8e9d0c34bb74dd8378421e879020ef01deb300a4/modules/role/files/sql).
 These files should be moved to a `./schema/` directory here and added to the `imars_puppet` repo as a submodule.
+
+The list of products and areas can be found in those SQL forms, but these could be built from any tablular data.
+For example [this google spreadsheet](https://docs.google.com/spreadsheets/d/1PziC49plUUNcAEEN0SwSoHvmozx6aLIKRwxDjInKn4I/edit?usp=sharing) contains the necessary details for the products table. 
+Future work could build this google sheet table into a SQL insert statement automatically, allowing for users to modify the schema via spreadsheet editor or even a google form.
