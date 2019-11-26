@@ -1,6 +1,10 @@
 # imars_product_metadata
 Information about IMaRS's satellite products and the imars_product_metadata SQL database.
 
+IMaRS's metadata database is a relational database best accessed via SQL queries.
+Many SQL queries can be tested via the Blazer web application.
+For example, see the product & area ID lookup sheet live from blazer [here](http://imars-physalis.marine.usf.edu:3000/dashboards/1-products-areas-lookup-sheet).
+
 Product metadata in the database starts at the `file` table.
 The `file` table holds metadata about each files catalogued by IMaRS.
 Within this table the product_id and area_id columns are used to link to the `product` and `area` tables, respectively.
